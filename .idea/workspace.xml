@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cf20e025-07ae-4d90-9c2a-a78d97af6c9e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+            <state relative-caret-position="289">
+              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -78,11 +77,6 @@
             <path>
               <item name="ant-bike" type="b2602c69:ProjectViewProjectNode" />
               <item name="ant-bike" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ant-bike" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ant-bike" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -155,7 +149,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573290864626</updated>
       <workItem from="1573290865941" duration="2501000" />
-      <workItem from="1573439439391" duration="763000" />
+      <workItem from="1573439439391" duration="1009000" />
     </task>
     <task id="LOCAL-00001" summary="补充提交">
       <created>1573291623078</created>
@@ -164,15 +158,21 @@
       <option name="project" value="LOCAL" />
       <updated>1573291623078</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="安装依赖">
+      <created>1573449072032</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573449072032</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3264000" />
+    <option name="totallyTimeSpent" value="3510000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -225,7 +225,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="补充提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="补充提交" />
+    <MESSAGE value="安装依赖" />
+    <option name="LAST_COMMIT_MESSAGE" value="安装依赖" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/scripts/build.js">
@@ -283,8 +284,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        <state relative-caret-position="289">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
         </state>
       </provider>
     </entry>
