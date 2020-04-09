@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
-import Index from "./pages/admin";
 
-function App() {
-  return (
-    <div className="App">
-      <Index />
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+        {this.props.children}
+      </div>
+    );
+  }
 }
 
 export default App;

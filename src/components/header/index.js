@@ -11,28 +11,31 @@ class Header extends React.Component {
       userName: '江户川',
       currentDate: '',
       weatherDetail: {},
-      weatherImg: null
+      weatherImg: null,
+      dateInterVal: null
     }
   }
 
   componentDidMount() {
-    setInterval(() => {
-      const currentDate = moment().format('YYYY-MM-DD HH:mm:ss');
-      this.setState({currentDate});
-      if (this.state.weatherDetail) {
-        const hour = moment().hour();
-        const isNight = (hour >= 0 && hour < 6) || (hour >= 18 && hour <= 24 );
-        if (isNight) {
-          this.setState({
-            weatherImg: this.state.weatherDetail.nightPictureUrl
-          })
-        } else {
-          this.setState({
-            weatherImg: this.state.weatherDetail.dayPictureUrl
-          })
+    this.setState({
+      dateInterVal: setInterval(() => {
+        const currentDate = moment().format('YYYY-MM-DD HH:mm:ss');
+        this.setState({currentDate});
+        if (this.state.weatherDetail) {
+          const hour = moment().hour();
+          const isNight = (hour >= 0 && hour < 6) || (hour >= 18 && hour <= 24 );
+          if (isNight) {
+            this.setState({
+              weatherImg: this.state.weatherDetail.nightPictureUrl
+            })
+          } else {
+            this.setState({
+              weatherImg: this.state.weatherDetail.dayPictureUrl
+            })
+          }
         }
-      }
-    }, 1000);
+      }, 1000)
+    });
 
     getWeatherDetail().then(response => {
       const weatherDetail = response.data.results[0].weather_data[0];
@@ -44,13 +47,8 @@ class Header extends React.Component {
     })
   }
 
-  getWeatherText = () => {
-    const weatherData = this.state.weatherDetail;
-    if (!weatherData) {
-      return '';
-    } else {
-      return `${weatherData.name} ${weatherData}`;
-    }
+  componentWillUnmount = () => {
+    clearInterval(this.state.dateInterVal)
   };
 
   render() {

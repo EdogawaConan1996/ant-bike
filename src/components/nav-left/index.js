@@ -4,6 +4,7 @@ import MenuConfig from '../../config/menuConfig';
 
 import './index.less';
 import logoSvg from '../../assets/img/logo-ant.svg';
+import {NavLink} from "react-router-dom";
 
 const { SubMenu, Item } = Menu;
 
@@ -29,12 +30,12 @@ class NavLeft extends React.Component {
     )
   }
 
-  componentDidMount() {
+  componentDidMount = () => {
     const menuList = this.renderMenu();
     this.setState({
       menuList
-    })
-  }
+    });
+  };
 
   renderMenu = () => {
     return MenuConfig.map(menuItem => {
@@ -44,7 +45,9 @@ class NavLeft extends React.Component {
             {
               menuItem.children.map(subMenuItem => {
                 return (
-                  <Item key={subMenuItem.key}>{subMenuItem.title}</Item>
+                  <Item key={subMenuItem.key}>
+                    <NavLink to={subMenuItem.key}>{subMenuItem.title}</NavLink>
+                  </Item>
                 )
               })
             }
@@ -52,11 +55,13 @@ class NavLeft extends React.Component {
         )
       } else {
         return (
-          <Item key={menuItem.key}>{menuItem.title}</Item>
+          <Item key={menuItem.key}>
+            <NavLink to={menuItem.key}>{menuItem.title}</NavLink>
+          </Item>
         )
       }
     })
-  }
+  };
 }
 
 export default NavLeft;

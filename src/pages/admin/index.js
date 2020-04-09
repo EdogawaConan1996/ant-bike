@@ -4,9 +4,12 @@ import Header from "../../components/header";
 import Footer from "../../components/footer";
 import NavLeft from "../../components/nav-left";
 import './index.less';
-import HomePage from "../home";
 
-class Index extends Component {
+class AdminPage extends Component {
+
+  constructor(props) {
+    super(props);
+  }
   render () {
     return (
       <div className={'admin'}>
@@ -17,7 +20,7 @@ class Index extends Component {
           <Col span={20} className={'main'}>
             <Header />
             <Row className={'content'}>
-              <HomePage />
+              {this.props.children}
             </Row>
             <Footer />
           </Col>
@@ -27,4 +30,4 @@ class Index extends Component {
   }
 }
 
-export default Index
+export default AdminPage;
