@@ -2,17 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf20e025-07ae-4d90-9c2a-a78d97af6c9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/ui/loading/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ui/loading/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ui/message/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ui/message/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ui/notification/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ui/notification/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ui/tabs/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ui/tabs/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/basicTable/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/basicTable/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/login/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/regist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/regist/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ui/carousel/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ui/carousel/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ui/gallerys/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ui/gallerys/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/carousel-img/carousel-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/carousel-img/carousel-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/carousel-img/carousel-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/gallery/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/gallery/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/gallery/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/gallery/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/gallery/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/gallery/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/gallery/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/gallery/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/gallery/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/gallery/18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/gallery/19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/gallery/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/gallery/20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/gallery/21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/gallery/22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/gallery/23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/gallery/24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/gallery/25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/gallery/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/gallery/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/gallery/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/gallery/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/gallery/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/gallery/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/gallery/9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ui/modals/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ui/modals/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ui/modals/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ui/modals/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/api/table/high/list.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/api/table/high/list.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/api/table/list.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/api/table/list.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/api/table/list1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/api/table/list1.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/admin.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,13 +71,14 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resource" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,9 +87,13 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resource" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/pages/error" />
       <recent name="$PROJECT_DIR$/src/pages/ui/buttons" />
@@ -107,7 +143,19 @@
       <workItem from="1586259446873" duration="423000" />
       <workItem from="1586401172320" duration="4382000" />
       <workItem from="1586428024857" duration="6316000" />
-      <workItem from="1587116441139" duration="2046000" />
+      <workItem from="1587116441139" duration="2243000" />
+      <workItem from="1587351888584" duration="6177000" />
+      <workItem from="1587624426770" duration="3714000" />
+      <workItem from="1588146405513" duration="2479000" />
+      <workItem from="1588322115945" duration="3977000" />
+      <workItem from="1588732243696" duration="80000" />
+      <workItem from="1589706713207" duration="820000" />
+      <workItem from="1589768170383" duration="839000" />
+      <workItem from="1589854761339" duration="66000" />
+      <workItem from="1589854841233" duration="12000" />
+      <workItem from="1591263334938" duration="617000" />
+      <workItem from="1596706599019" duration="634000" />
+      <workItem from="1596766707558" duration="2081000" />
     </task>
     <task id="LOCAL-00001" summary="按钮 modal 富文本编辑器实现">
       <created>1586404636177</created>
@@ -116,48 +164,56 @@
       <option name="project" value="LOCAL" />
       <updated>1586404636177</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="antd一系列组件事件">
+      <created>1587118977695</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587118977695</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="按钮 modal 富文本编辑器实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="按钮 modal 富文本编辑器实现" />
+    <MESSAGE value="antd一系列组件事件" />
+    <option name="LAST_COMMIT_MESSAGE" value="antd一系列组件事件" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="301" y="0" key="CommitChangelistDialog2" timestamp="1586404635942">
+    <state x="460" y="295" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1588322586512">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="301" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586404635942" />
-    <state width="1419" height="218" key="GridCell.Tab.0.bottom" timestamp="1587116640293">
+    <state x="460" y="295" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1588322586512" />
+    <state width="1419" height="231" key="GridCell.Tab.0.bottom" timestamp="1596792373225">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="218" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587116640293" />
-    <state width="1419" height="216" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1586259419107" />
-    <state width="1419" height="218" key="GridCell.Tab.0.center" timestamp="1587116640292">
+    <state width="1419" height="231" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-148.1920.1080@0.0.1440.900" timestamp="1596792373225" />
+    <state width="1419" height="217" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589706793219" />
+    <state width="1419" height="231" key="GridCell.Tab.0.bottom/0.23.1440.808/1440.-125.1920.1057@0.23.1440.808" timestamp="1596765313137" />
+    <state width="1419" height="217" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1589732009322" />
+    <state width="1419" height="231" key="GridCell.Tab.0.center" timestamp="1596792373222">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="218" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587116640292" />
-    <state width="1419" height="216" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1586259419106" />
-    <state width="1419" height="218" key="GridCell.Tab.0.left" timestamp="1587116640291">
+    <state width="1419" height="231" key="GridCell.Tab.0.center/0.0.1440.900/1440.-148.1920.1080@0.0.1440.900" timestamp="1596792373222" />
+    <state width="1419" height="217" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589706793218" />
+    <state width="1419" height="231" key="GridCell.Tab.0.center/0.23.1440.808/1440.-125.1920.1057@0.23.1440.808" timestamp="1596765313134" />
+    <state width="1419" height="217" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1589732009321" />
+    <state width="1419" height="231" key="GridCell.Tab.0.left" timestamp="1596792373220">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="218" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587116640291" />
-    <state width="1419" height="216" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1586259419105" />
-    <state width="1419" height="218" key="GridCell.Tab.0.right" timestamp="1587116640293">
+    <state width="1419" height="231" key="GridCell.Tab.0.left/0.0.1440.900/1440.-148.1920.1080@0.0.1440.900" timestamp="1596792373220" />
+    <state width="1419" height="217" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589706793217" />
+    <state width="1419" height="231" key="GridCell.Tab.0.left/0.23.1440.808/1440.-125.1920.1057@0.23.1440.808" timestamp="1596765313132" />
+    <state width="1419" height="217" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1589732009319" />
+    <state width="1419" height="231" key="GridCell.Tab.0.right" timestamp="1596792373223">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="218" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587116640293" />
-    <state width="1419" height="216" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1586259419106" />
-    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1586404638979">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586404638979" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1586442065901">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1586442065901" />
+    <state width="1419" height="231" key="GridCell.Tab.0.right/0.0.1440.900/1440.-148.1920.1080@0.0.1440.900" timestamp="1596792373223" />
+    <state width="1419" height="217" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589706793219" />
+    <state width="1419" height="231" key="GridCell.Tab.0.right/0.23.1440.808/1440.-125.1920.1057@0.23.1440.808" timestamp="1596765313135" />
+    <state width="1419" height="217" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1589732009321" />
   </component>
 </project>
