@@ -160,7 +160,7 @@ class BasicTable extends React.Component {
           <Table bordered columns={columns} dataSource={this.state.tableData1} rowKey='id'/>
         </Card>
         <Card title="动态渲染数据表格" style={{marginTop: '30px'}}>
-          <Table bordered columns={columns} pagination={false} dataSource={this.state.tableData2} />
+          <Table bordered columns={columns} pagination={false} rowKey='id' dataSource={this.state.tableData2} />
           <Pagination
             style={{marginTop: '10px'}}
             total={this.state.dataTotal1}

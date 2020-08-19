@@ -38,11 +38,12 @@ class Header extends React.Component {
     });
 
     getWeatherDetail().then(response => {
-      const weatherDetail = response.data.results[0].weather_data[0];
+      const weatherDetail = response[0].weather_data[0];
       this.setState({
-        weatherDetail: response.data.results[0].weather_data[0]
+        weatherDetail
       });
-    }).catch(() => {
+    }).catch((error) => {
+      console.log(error);
       message.error('获取天气失败');
     })
   }
