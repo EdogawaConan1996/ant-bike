@@ -87,7 +87,18 @@ const columns = [
     align: 'center'
   },
 ]
+const rowRadioSelection= {
+  type: 'radio',
+  columnTitle: '选择',
+  columnWidth: '80px',
+  onSelect: (selectedRowKeys, selectedRows) => {
+    console.log(selectedRowKeys, selectedRows)
+  }
+}
 const rowSelection = {
+  type: 'checkbox',
+  columnTitle: '选择',
+  columnWidth: '80px',
   onChange: (selectedRowKeys, selectedRows) => {
     console.log(selectedRowKeys, selectedRows);
   },
@@ -117,6 +128,14 @@ class BasicTable extends React.Component {
       dataTotal1: 0,
       currentPage1: 1,
       currentPageSize1: 10,
+      tableData3: [],
+      dataTotal2: 0,
+      currentPage2: 1,
+      currentPageSize2: 10,
+      tableData4: [],
+      dataTotal3: 0,
+      currentPage3: 1,
+      currentPageSize3: 10,
     }
   }
 
@@ -132,23 +151,55 @@ class BasicTable extends React.Component {
     getTableList1(params).then(response => {
       this.setState({
         tableData2: response.list,
-        dataTotal1: response.totalCount
+        dataTotal1: response.totalCount,
+        tableData3: response.list,
+        dataTotal2: response.totalCount,
+        tableData4: response.list,
+        dataTotal3: response.totalCount
       })
     }).catch(error => {
       console.log(error)
     })
   }
 
-  handlePageChange = (page, pageSize) => {
+  handlePageChange1 = (page, pageSize) => {
     this.setState({
       currentPage1: page
     })
     this.getTableData()
   }
 
-  handlePageSizeChange = (current, size) => {
+  handlePageSizeChange1 = (current, size) => {
     this.setState({
       currentPageSize1: size
+    })
+    this.getTableData()
+  }
+
+  handlePageChange2 = (page, pageSize) => {
+    this.setState({
+      currentPage2: page
+    })
+    this.getTableData()
+  }
+
+  handlePageSizeChange2 = (current, size) => {
+    this.setState({
+      currentPageSize2: size
+    })
+    this.getTableData()
+  }
+
+  handlePageChange3 = (page, pageSize) => {
+    this.setState({
+      currentPage3: page
+    })
+    this.getTableData()
+  }
+
+  handlePageSizeChange3 = (current, size) => {
+    this.setState({
+      currentPageSize3: size
     })
     this.getTableData()
   }
@@ -159,7 +210,7 @@ class BasicTable extends React.Component {
         <Card title="基础表格">
           <Table bordered columns={columns} dataSource={this.state.tableData1} rowKey='id'/>
         </Card>
-        <Card title="动态渲染数据表格" style={{marginTop: '30px'}}>
+        <Card title="Mock表格" style={{marginTop: '30px'}}>
           <Table bordered columns={columns} pagination={false} rowKey='id' dataSource={this.state.tableData2} />
           <Pagination
             style={{marginTop: '10px'}}
@@ -169,8 +220,34 @@ class BasicTable extends React.Component {
             pageSize={this.state.currentPageSize1}
             showQuickJumper
             showSizeChanger
-            onChange={this.handlePageChange}
-            onShowSizeChange={this.handlePageSizeChange}/>
+            onChange={this.handlePageChange1}
+            onShowSizeChange={this.handlePageSizeChange1}/>
+        </Card>
+        <Card title="Mock表格-单选" style={{marginTop: '30px'}}>
+          <Table bordered columns={columns} pagination={false} rowSelection={rowRadioSelection} rowKey='id' dataSource={this.state.tableData3} />
+          <Pagination
+            style={{marginTop: '10px'}}
+            total={this.state.dataTotal2}
+            showTotal={(total, range) => (<span>共 {total} 条数据</span>)}
+            current={this.state.currentPage2}
+            pageSize={this.state.currentPageSize2}
+            showQuickJumper
+            showSizeChanger
+            onChange={this.handlePageChange2}
+            onShowSizeChange={this.handlePageSizeChange2}/>
+        </Card>
+        <Card title="Mock表格-多选" style={{marginTop: '30px'}}>
+          <Table bordered columns={columns} pagination={false} rowSelection={rowSelection} rowKey='id' dataSource={this.state.tableData4} />
+          <Pagination
+            style={{marginTop: '10px'}}
+            total={this.state.dataTotal3}
+            showTotal={(total, range) => (<span>共 {total} 条数据</span>)}
+            current={this.state.currentPage3}
+            pageSize={this.state.currentPageSize3}
+            showQuickJumper
+            showSizeChanger
+            onChange={this.handlePageChange3}
+            onShowSizeChange={this.handlePageSizeChange3}/>
         </Card>
       </div>
     )

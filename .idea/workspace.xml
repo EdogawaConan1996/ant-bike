@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cf20e025-07ae-4d90-9c2a-a78d97af6c9e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/basicTable/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/basicTable/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596792451213</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="antd 表格实现">
+      <created>1597850632948</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597850632949</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,10 +159,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="antd 表格实现" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1596792450986">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="404" y="0" key="CommitChangelistDialog2" timestamp="1597850632063">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="303" y="0" key="CommitChangelistDialog2/0.0.1440.900/1440.-148.1920.1080@0.0.1440.900" timestamp="1596792450986" />
+    <state x="404" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597850632063" />
     <state width="1894" height="259" key="GridCell.Tab.0.bottom" timestamp="1597849408689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -195,10 +200,11 @@
     <state width="1894" height="259" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597849408689" />
     <state width="1419" height="231" key="GridCell.Tab.0.right/0.23.1440.808/1440.-125.1920.1057@0.23.1440.808" timestamp="1596765313135" />
     <state width="1419" height="217" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1589732009321" />
-    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1596792455809">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="427" y="215" key="Vcs.Push.Dialog.v2" timestamp="1597850636104">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.-148.1920.1080@0.0.1440.900" timestamp="1596792455809" />
+    <state x="427" y="215" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597850636104" />
     <state x="2065" y="93" width="670" height="676" key="search.everywhere.popup" timestamp="1597828520919">
       <screen x="1440" y="-148" width="1920" height="1080" />
     </state>
