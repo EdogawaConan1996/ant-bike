@@ -6,10 +6,6 @@ import NavLeft from "../../components/nav-left";
 import './index.less';
 
 class AdminPage extends Component {
-
-  constructor(props) {
-    super(props);
-  }
   render () {
     return (
       <div className={'admin'}>

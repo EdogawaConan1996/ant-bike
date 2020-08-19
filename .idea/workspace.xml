@@ -2,49 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf20e025-07ae-4d90-9c2a-a78d97af6c9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/basicTable/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/basicTable/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/login/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/regist/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/regist/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ui/carousel/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ui/carousel/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ui/gallerys/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ui/gallerys/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/carousel-img/carousel-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/carousel-img/carousel-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/carousel-img/carousel-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/gallery/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/gallery/10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/gallery/11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/gallery/12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/gallery/13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/gallery/14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/gallery/15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/gallery/16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/gallery/17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/gallery/18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/gallery/19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/gallery/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/gallery/20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/gallery/21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/gallery/22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/gallery/23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/gallery/24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/gallery/25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/gallery/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/gallery/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/gallery/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/gallery/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/gallery/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/gallery/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/gallery/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mixins/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mixins/tableMixin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mock/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mock/table.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resource/api/table/high/list.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/api/table/high/list.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resource/api/table/list.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/api/table/list.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resource/api/table/list1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/api/table/list1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/httpRequest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/httpRequest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/admin/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/admin/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/basicTable/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/basicTable/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Less File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -91,12 +60,12 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/resource" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/pages/error" />
       <recent name="$PROJECT_DIR$/src/pages/ui/buttons" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resource" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -156,6 +125,8 @@
       <workItem from="1591263334938" duration="617000" />
       <workItem from="1596706599019" duration="634000" />
       <workItem from="1596766707558" duration="2081000" />
+      <workItem from="1596792428341" duration="58000" />
+      <workItem from="1597828215553" duration="6959000" />
     </task>
     <task id="LOCAL-00001" summary="按钮 modal 富文本编辑器实现">
       <created>1586404636177</created>
@@ -171,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587118977695</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="antd 表格实现">
+      <created>1596792451213</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596792451213</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,40 +158,53 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="按钮 modal 富文本编辑器实现" />
     <MESSAGE value="antd一系列组件事件" />
-    <option name="LAST_COMMIT_MESSAGE" value="antd一系列组件事件" />
+    <MESSAGE value="antd 表格实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="antd 表格实现" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="460" y="295" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1588322586512">
+    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1596792450986">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="460" y="295" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1588322586512" />
-    <state width="1419" height="231" key="GridCell.Tab.0.bottom" timestamp="1596792373225">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1440.900/1440.-148.1920.1080@0.0.1440.900" timestamp="1596792450986" />
+    <state width="1899" height="290" key="GridCell.Tab.0.bottom" timestamp="1597833958623">
+      <screen x="1440" y="-148" width="1920" height="1080" />
     </state>
     <state width="1419" height="231" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-148.1920.1080@0.0.1440.900" timestamp="1596792373225" />
+    <state width="1899" height="290" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-148.1920.1080@1440.-148.1920.1080" timestamp="1597833958623" />
     <state width="1419" height="217" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589706793219" />
     <state width="1419" height="231" key="GridCell.Tab.0.bottom/0.23.1440.808/1440.-125.1920.1057@0.23.1440.808" timestamp="1596765313137" />
     <state width="1419" height="217" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1589732009322" />
-    <state width="1419" height="231" key="GridCell.Tab.0.center" timestamp="1596792373222">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1899" height="290" key="GridCell.Tab.0.center" timestamp="1597833958621">
+      <screen x="1440" y="-148" width="1920" height="1080" />
     </state>
     <state width="1419" height="231" key="GridCell.Tab.0.center/0.0.1440.900/1440.-148.1920.1080@0.0.1440.900" timestamp="1596792373222" />
+    <state width="1899" height="290" key="GridCell.Tab.0.center/0.0.1440.900/1440.-148.1920.1080@1440.-148.1920.1080" timestamp="1597833958621" />
     <state width="1419" height="217" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589706793218" />
     <state width="1419" height="231" key="GridCell.Tab.0.center/0.23.1440.808/1440.-125.1920.1057@0.23.1440.808" timestamp="1596765313134" />
     <state width="1419" height="217" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1589732009321" />
-    <state width="1419" height="231" key="GridCell.Tab.0.left" timestamp="1596792373220">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1899" height="290" key="GridCell.Tab.0.left" timestamp="1597833958619">
+      <screen x="1440" y="-148" width="1920" height="1080" />
     </state>
     <state width="1419" height="231" key="GridCell.Tab.0.left/0.0.1440.900/1440.-148.1920.1080@0.0.1440.900" timestamp="1596792373220" />
+    <state width="1899" height="290" key="GridCell.Tab.0.left/0.0.1440.900/1440.-148.1920.1080@1440.-148.1920.1080" timestamp="1597833958619" />
     <state width="1419" height="217" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589706793217" />
     <state width="1419" height="231" key="GridCell.Tab.0.left/0.23.1440.808/1440.-125.1920.1057@0.23.1440.808" timestamp="1596765313132" />
     <state width="1419" height="217" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1589732009319" />
-    <state width="1419" height="231" key="GridCell.Tab.0.right" timestamp="1596792373223">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1899" height="290" key="GridCell.Tab.0.right" timestamp="1597833958622">
+      <screen x="1440" y="-148" width="1920" height="1080" />
     </state>
     <state width="1419" height="231" key="GridCell.Tab.0.right/0.0.1440.900/1440.-148.1920.1080@0.0.1440.900" timestamp="1596792373223" />
+    <state width="1899" height="290" key="GridCell.Tab.0.right/0.0.1440.900/1440.-148.1920.1080@1440.-148.1920.1080" timestamp="1597833958622" />
     <state width="1419" height="217" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589706793219" />
     <state width="1419" height="231" key="GridCell.Tab.0.right/0.23.1440.808/1440.-125.1920.1057@0.23.1440.808" timestamp="1596765313135" />
     <state width="1419" height="217" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1589732009321" />
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1596792455809">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.-148.1920.1080@0.0.1440.900" timestamp="1596792455809" />
+    <state x="2065" y="93" width="670" height="676" key="search.everywhere.popup" timestamp="1597828520919">
+      <screen x="1440" y="-148" width="1920" height="1080" />
+    </state>
+    <state x="2065" y="93" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.-148.1920.1080@1440.-148.1920.1080" timestamp="1597828520919" />
   </component>
 </project>

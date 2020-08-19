@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-axios.defaults.baseURL = 'http://yapi.demo.qunar.com/mock/95334/dyna/ant-bike/';
+axios.defaults.baseURL = '/';
 axios.defaults.timeout = 30000;
 
 axios.interceptors.request.use(config => {
@@ -11,12 +11,12 @@ axios.interceptors.response.use(response => {
   const code = response.data.code;
   if (code) {
     if (code === SUCCESS_CODE) {
-      return response.data
+      return response.data.result
     } else {
       return Promise.reject({message: response.data.message});
     }
   } else {
-    return Promise.reject({message: '请求失败'});
+    return Promise.reject({message: '前端请求失败'});
   }
 });
 
