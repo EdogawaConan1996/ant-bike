@@ -1,6 +1,7 @@
 import Mock from 'mockjs';
-import {tableList1} from "./table";
+import {tableBasic, tableHigh} from "./table";
 
-Mock.mock(tableList1.url, tableList1.method, tableList1.template)
+Mock.mock( tableBasic.url, tableBasic.method, tableBasic.template)
+Mock.mock(tableHigh.url, tableHigh.method, tableHigh.template)
 
 export default Mock

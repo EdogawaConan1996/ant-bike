@@ -15,6 +15,7 @@ import UiCarouselPage from "../pages/ui/carousel";
 import LoginPage from "../pages/login";
 import RegFormPage from "../pages/regist";
 import BasicTable from "../pages/basicTable";
+import HighTable from "../pages/highTable";
 
 class AdminRouter extends React.Component {
 
@@ -35,6 +36,7 @@ class AdminRouter extends React.Component {
           <Route exact path='/form/login' component={LoginPage} />
           <Route exact path='/form/reg' component={RegFormPage} />
           <Route exact path='/table/basic' component={BasicTable} />
+          <Route exact path='/table/high' component={HighTable} />
           <Route component={Error404Page} />
           <Redirect to='/home'/>
         </Switch>

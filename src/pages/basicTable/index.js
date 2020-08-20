@@ -1,6 +1,6 @@
 import React from "react";
 import {Card, Pagination, Select, Table} from "antd";
-import {getTableList1} from "../../api/table";
+import {getTableBasic} from "../../api/table";
 
 const columns = [
   {
@@ -148,7 +148,7 @@ class BasicTable extends React.Component {
       page: this.state.currentPage1,
       pageSize: this.state.currentPageSize1
     }
-    getTableList1(params).then(response => {
+    getTableBasic(params).then(response => {
       this.setState({
         tableData2: response.list,
         dataTotal1: response.totalCount,
