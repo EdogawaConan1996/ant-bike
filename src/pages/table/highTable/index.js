@@ -1,6 +1,6 @@
 import React from "react";
 import {Card, Table, Button, Popconfirm, Pagination} from "antd";
-import {getTableHigh} from "../../api/table";
+import {getTableHigh} from "../../../api/table";
 
 const columns = [
   {

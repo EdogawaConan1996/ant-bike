@@ -2,15 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf20e025-07ae-4d90-9c2a-a78d97af6c9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/highTable/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/highTable/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/bikeMap/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/bikeMap/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/city/components/filter-form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/city/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/city/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/city/modals/openCity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/table/basicTable/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/table/highTable/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/city.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/city.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mixins/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/bike.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mixins/tableMixin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mock/bike.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mock/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mock/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mock/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mock/table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/basicTable/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/basicTable/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resource/api/table/high/list.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/api/table/high/list.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/admin/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/admin/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/basicTable/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/table/basicTable/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/basicTable/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/mock/city.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/highTable/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/table/highTable/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/highTable/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/city/components/openCityForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Less File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -58,6 +71,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/city/components" />
+      <recent name="$PROJECT_DIR$/src/pages/table" />
       <recent name="$PROJECT_DIR$/src/pages/error" />
       <recent name="$PROJECT_DIR$/src/pages/ui/buttons" />
     </key>
@@ -172,50 +187,55 @@
     </state>
     <state x="303" y="0" key="CommitChangelistDialog2/0.0.1440.900/1440.-148.1920.1080@0.0.1440.900" timestamp="1596792450986" />
     <state x="1844" y="-148" key="CommitChangelistDialog2/0.0.1440.900/1440.-148.1920.1080@1440.-148.1920.1080" timestamp="1597837126061" />
-    <state width="1899" height="290" key="GridCell.Tab.0.bottom" timestamp="1597893722591">
+    <state width="1899" height="290" key="GridCell.Tab.0.bottom" timestamp="1598005173909">
       <screen x="1440" y="-148" width="1920" height="1080" />
     </state>
     <state width="1419" height="231" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-148.1920.1080@0.0.1440.900" timestamp="1596792373225" />
-    <state width="1899" height="290" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-148.1920.1080@1440.-148.1920.1080" timestamp="1597893722591" />
+    <state width="1899" height="290" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-148.1920.1080@1440.-148.1920.1080" timestamp="1598003191385" />
     <state width="1419" height="217" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589706793219" />
     <state width="1894" height="259" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597849408689" />
     <state width="1419" height="231" key="GridCell.Tab.0.bottom/0.23.1440.808/1440.-125.1920.1057@0.23.1440.808" timestamp="1596765313137" />
     <state width="1419" height="217" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1589732009322" />
-    <state width="1899" height="290" key="GridCell.Tab.0.center" timestamp="1597893722587">
+    <state width="1899" height="290" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-148.1920.1080@1440.-148.1920.1080" timestamp="1598005173909" />
+    <state width="1899" height="290" key="GridCell.Tab.0.center" timestamp="1598005173908">
       <screen x="1440" y="-148" width="1920" height="1080" />
     </state>
     <state width="1419" height="231" key="GridCell.Tab.0.center/0.0.1440.900/1440.-148.1920.1080@0.0.1440.900" timestamp="1596792373222" />
-    <state width="1899" height="290" key="GridCell.Tab.0.center/0.0.1440.900/1440.-148.1920.1080@1440.-148.1920.1080" timestamp="1597893722587" />
+    <state width="1899" height="290" key="GridCell.Tab.0.center/0.0.1440.900/1440.-148.1920.1080@1440.-148.1920.1080" timestamp="1598003191383" />
     <state width="1419" height="217" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589706793218" />
     <state width="1894" height="259" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597849408689" />
     <state width="1419" height="231" key="GridCell.Tab.0.center/0.23.1440.808/1440.-125.1920.1057@0.23.1440.808" timestamp="1596765313134" />
     <state width="1419" height="217" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1589732009321" />
-    <state width="1899" height="290" key="GridCell.Tab.0.left" timestamp="1597893722584">
+    <state width="1899" height="290" key="GridCell.Tab.0.center/0.23.1440.877/1440.-148.1920.1080@1440.-148.1920.1080" timestamp="1598005173908" />
+    <state width="1899" height="290" key="GridCell.Tab.0.left" timestamp="1598005173891">
       <screen x="1440" y="-148" width="1920" height="1080" />
     </state>
     <state width="1419" height="231" key="GridCell.Tab.0.left/0.0.1440.900/1440.-148.1920.1080@0.0.1440.900" timestamp="1596792373220" />
-    <state width="1899" height="290" key="GridCell.Tab.0.left/0.0.1440.900/1440.-148.1920.1080@1440.-148.1920.1080" timestamp="1597893722584" />
+    <state width="1899" height="290" key="GridCell.Tab.0.left/0.0.1440.900/1440.-148.1920.1080@1440.-148.1920.1080" timestamp="1598003191382" />
     <state width="1419" height="217" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589706793217" />
     <state width="1894" height="259" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597849408689" />
     <state width="1419" height="231" key="GridCell.Tab.0.left/0.23.1440.808/1440.-125.1920.1057@0.23.1440.808" timestamp="1596765313132" />
     <state width="1419" height="217" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1589732009319" />
-    <state width="1899" height="290" key="GridCell.Tab.0.right" timestamp="1597893722589">
+    <state width="1899" height="290" key="GridCell.Tab.0.left/0.23.1440.877/1440.-148.1920.1080@1440.-148.1920.1080" timestamp="1598005173891" />
+    <state width="1899" height="290" key="GridCell.Tab.0.right" timestamp="1598005173909">
       <screen x="1440" y="-148" width="1920" height="1080" />
     </state>
     <state width="1419" height="231" key="GridCell.Tab.0.right/0.0.1440.900/1440.-148.1920.1080@0.0.1440.900" timestamp="1596792373223" />
-    <state width="1899" height="290" key="GridCell.Tab.0.right/0.0.1440.900/1440.-148.1920.1080@1440.-148.1920.1080" timestamp="1597893722589" />
+    <state width="1899" height="290" key="GridCell.Tab.0.right/0.0.1440.900/1440.-148.1920.1080@1440.-148.1920.1080" timestamp="1598003191384" />
     <state width="1419" height="217" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589706793219" />
     <state width="1894" height="259" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597849408689" />
     <state width="1419" height="231" key="GridCell.Tab.0.right/0.23.1440.808/1440.-125.1920.1057@0.23.1440.808" timestamp="1596765313135" />
     <state width="1419" height="217" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1589732009321" />
+    <state width="1899" height="290" key="GridCell.Tab.0.right/0.23.1440.877/1440.-148.1920.1080@1440.-148.1920.1080" timestamp="1598005173909" />
     <state x="1867" y="75" key="Vcs.Push.Dialog.v2" timestamp="1597837129706">
       <screen x="1440" y="-148" width="1920" height="1080" />
     </state>
     <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.-148.1920.1080@0.0.1440.900" timestamp="1596792455809" />
     <state x="1867" y="75" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.-148.1920.1080@1440.-148.1920.1080" timestamp="1597837129706" />
-    <state x="2065" y="93" width="670" height="676" key="search.everywhere.popup" timestamp="1597828520919">
-      <screen x="1440" y="-148" width="1920" height="1080" />
+    <state x="469" y="201" width="670" height="564" key="search.everywhere.popup" timestamp="1597996310047">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="2065" y="93" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.-148.1920.1080@1440.-148.1920.1080" timestamp="1597828520919" />
+    <state x="469" y="201" width="670" height="564" key="search.everywhere.popup/0.0.1440.900/1440.-148.1920.1080@0.0.1440.900" timestamp="1597996310047" />
+    <state x="2065" y="93" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.-148.1920.1080@1440.-148.1920.1080" timestamp="1597914408846" />
   </component>
 </project>

@@ -6,3 +6,10 @@ export const getCityList = () => {
     url: 'city/list'
   })
 };
+
+export const getOpenCityList = () => {
+  return httpRequest.request({
+    method: 'post',
+    url: 'city/open_city'
+  })
+}

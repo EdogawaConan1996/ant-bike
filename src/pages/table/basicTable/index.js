@@ -1,6 +1,6 @@
 import React from "react";
 import {Card, Pagination, Select, Table} from "antd";
-import {getTableBasic} from "../../api/table";
+import {getTableBasic} from "../../../api/table";
 
 const columns = [
   {

@@ -14,8 +14,10 @@ import UiGalleryPage from "../pages/ui/gallerys";
 import UiCarouselPage from "../pages/ui/carousel";
 import LoginPage from "../pages/login";
 import RegFormPage from "../pages/regist";
-import BasicTable from "../pages/basicTable";
-import HighTable from "../pages/highTable";
+import BasicTable from "../pages/table/basicTable";
+import HighTable from "../pages/table/highTable";
+import CityPage from "../pages/city";
+import MapPage from "../pages/bikeMap";
 
 class AdminRouter extends React.Component {
 
@@ -37,6 +39,8 @@ class AdminRouter extends React.Component {
           <Route exact path='/form/reg' component={RegFormPage} />
           <Route exact path='/table/basic' component={BasicTable} />
           <Route exact path='/table/high' component={HighTable} />
+          <Route exact path='/city' component={CityPage} />
+          <Route exact path='/bikeMap' component={MapPage} />
           <Route component={Error404Page} />
           <Redirect to='/home'/>
         </Switch>
